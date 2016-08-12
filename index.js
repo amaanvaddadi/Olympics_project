@@ -20,9 +20,12 @@ var submit = document.getElementById('clicker');
 
 submit.addEventListener('click', function () {
 
-  var olympian = new Olympian(input.value)
+
+
+  var olympian = new Olympian(parseInt(input.value))
   console.log("Hey new Olympian", olympian)
-  document.getElementById('display').innerHTML = input.value;
+
+  if (olympian.trainingYears === 1 || olympian.trainingYears === 2) { document.getElementById('result').innerHTML = "You have been training for " + input.value + " year/s. Keep training."; }
 
 })
 
