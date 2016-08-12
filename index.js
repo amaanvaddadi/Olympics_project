@@ -20,13 +20,15 @@ var submit = document.getElementById('clicker');
 
 submit.addEventListener('click', function () {
 
+// document.getElementById('result').innerHTML = input.value;
+var olympian = new Olympian(parseInt(input.value))
+console.log("Hey new Olympian", olympian)
+
+  if (olympian.qualified) { document.getElementById('result').innerHTML = "You have qualified " + input.value }
+  else  {document.getElementById('result').innerHTML = "Keep training " + input.value }
 
 
-  // if (olympian.trainingYears === 1 || olympian.trainingYears === 2) { document.getElementById('result').innerHTML = "You have been training for " + input.value + " year/s. Keep training."; }
 
-  var olympian = new Olympian(parseInt(input.value))
-  console.log("Hey new Olympian", olympian)
-  document.getElementById('display').innerHTML = input.value;
 })
 
 
