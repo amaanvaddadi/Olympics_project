@@ -1,1 +1,6 @@
-console.log("welcome to orange-trees")
+var submit = document.getElementById('clicker');
+
+submit.addEventListener('click', function () {
+
+document.getElementById('display').innerHTML = "Hello Olympiad";
+})

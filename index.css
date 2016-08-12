@@ -7,7 +7,7 @@ body{
   background-image: url("images/olympics.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.9;
+  /*opacity: 0.7;*/
 
 }
 
@@ -19,7 +19,7 @@ main {
 .index-textbox {
   margin: 0px 25% 0px 25%;
   background-color: #D6D6D6;
-  opacity: 0.7;
+  /*opacity: 1;*/
 }
 
 /* Add more styles here
