@@ -20,10 +20,9 @@ var submit = document.getElementById('clicker');
 
 submit.addEventListener('click', function () {
 
-  var olympian = new Olympian(input.value)
+  var olympian = new Olympian(parseInt(input.value))
   console.log("Hey new Olympian", olympian)
   document.getElementById('display').innerHTML = input.value;
-
 })
 
 
