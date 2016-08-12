@@ -1,23 +1,26 @@
+body{
+  padding: 100px 50px;
+  text-align: center;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-position: center top;
+  background-color: #FFF5C3;
+  background-image: url("images/olympics.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*opacity: 0.7;*/
+
+}
+
 main {
   text-align: center;
 }
-.display-tree-small{
-  background: url('../images/tree.jpeg');
-  background-repeat: no-repeat;
-  height:200px;
-  width:200px;
-  border: solid black 2px;
+
+
+.index-textbox {
+  margin: 0px 25% 0px 25%;
+  background-color: #D6D6D6;
+  /*opacity: 1;*/
 }
 
-.display-tree-big{
-  background: url('../images/tree_big.jpg');
-  background-repeat: no-repeat;
-  height:1000px;
-  width:1000px;
-  border: solid black 2px;
-}
-
-#orange-tree-template { display: none; }
-
-
-/* Add more styles here*/
+/* Add more styles here
+it
