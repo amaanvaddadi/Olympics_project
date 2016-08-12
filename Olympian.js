@@ -1,4 +1,4 @@
-var Olympian = function() {
+var Olympian = function(trainingYears) {
   this.trainingYears = 0
   this.qualified = false
 }
