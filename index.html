@@ -9,26 +9,36 @@
 
   </head>
   <body>
-    <main>
-      <h1>Olympics</h1>
 
+<!-- <div class="input">
   <input type="text" class="form-control" placeholder="Text input">
-<!--
-      <div class="grove">
-        <button class="plant">Plant Orange Tree</button>
-      </div>
 
-      <div id="orange-tree-template">
-        <div class="orange-tree">
-          <h2>Tree Name</h2>
-          <p class="age">0</p>
-          <p class="fruit-count">0</p>
-          <button class="pick">Pick!</button>
-          <button class="age">Age!</button>
-          <div class="display-tree-big"><div>
+</div> -->
+<div class="container-fluid">
+  <div class="index-textbox">
+    <div class="row">
+      <div class ="col-md-6 col-md-offset-3 col-xs-12">
+        <h1><strong>Welcome to olympics selector!!</strong></h1>
+      </div>
+      <div class=" col-md-6 col-md-offset-3 col-xs-12">
+        <h4>This page would guide you towards selection criteria based on years of training</h4>
+
+      </div>
+    </div><br><br>
+
+    <div class="row">
+      <form class="col-md-6 col-md-offset-3 col-xs-12" id="newName" action="/welcome" accept-charset="UTF-8" method="post">
+        <div class="form-group">
+          <label class='input' for="guest_name">Welcome, please Enter your years of training!<br><br>
+          <input placeholder="years" type="Number" name="name" id="guest_name" /><br><br>
+          </textarea><br><br>
+          <button type="submit" class="btn btn-default" name="commit" value="enter site" />Submit</button>
         </div>
-      </div> -->
-    </main>
+      </form>
+    </div>
+  </div>
+
+
     <script src="bundle.js"></script>
   </body>
 </html>
