@@ -16,11 +16,14 @@ main {
 }
 
 
+
 .index-textbox {
   margin: 0px 25% 0px 25%;
   background-color: #D6D6D6;
-  /*opacity: 1;*/
 }
 
-/* Add more styles here
-it
+img {
+
+  max-width: 350px;
+  max-height: 350px;
+}

@@ -20,10 +20,16 @@ var submit = document.getElementById('clicker');
 
 submit.addEventListener('click', function () {
 
-  var olympian = new Olympian(parseInt(input.value))
+var olympian = new Olympian(parseInt(input.value))
   // checkIfQualified
   console.log("Hey new Olympian", olympian)
   document.getElementById('display').innerHTML = input.value;
+// document.getElementById('result').innerHTML = input.value;
+var olympian = new Olympian(parseInt(input.value))
+console.log("Hey new Olympian", olympian)
+
+  if (olympian.qualified) { document.getElementById('result').innerHTML = '<img src = "images/runner.png">' + "You have been training for " + input.value + " years. Congratulations!! you have qualified!"}
+  else  {document.getElementById('result').innerHTML = '<img src = "images/tired-runner.jpg">' + " Keep training!" }
 })
 
 
